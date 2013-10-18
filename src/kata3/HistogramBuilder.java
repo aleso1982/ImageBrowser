@@ -1,5 +1,9 @@
 package kata3;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 public class HistogramBuilder<T> {
     
     public Histogram<T> histogram;
@@ -7,7 +11,8 @@ public class HistogramBuilder<T> {
     public HistogramBuilder() {
         this.histogram= new Histogram();
     } 
-    public void calculate (T [] data){
+    
+    public void calculate (List<T> data){
         for (T item : data)
             histogram.put(item,getCount(item)+1);
     }
@@ -21,5 +26,5 @@ public class HistogramBuilder<T> {
             return histogram.get(item);
         return 0;
     }
-    
+
 }
