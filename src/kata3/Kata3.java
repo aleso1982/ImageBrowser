@@ -15,6 +15,5 @@ public class Kata3 {
         /*BufferedReader input= new BufferedReader(new InputStreamReader(System.in));
         String text = input.readLine();*/
         
-        
     }
 }
