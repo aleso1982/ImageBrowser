@@ -1,4 +1,4 @@
-package imagebrowser;
+package imagebrowser.model;
 
 public class RealImage extends Image {
 

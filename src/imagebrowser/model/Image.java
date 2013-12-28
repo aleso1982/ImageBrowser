@@ -1,4 +1,6 @@
-package imagebrowser;
+package imagebrowser.model;
+
+import imagebrowser.model.Bitmap;
 
 public abstract class Image {
 

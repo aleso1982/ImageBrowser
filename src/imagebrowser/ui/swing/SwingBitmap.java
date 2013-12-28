@@ -1,5 +1,6 @@
-package imagebrowser;
+package imagebrowser.ui.swing;
 
+import imagebrowser.model.Bitmap;
 import java.awt.image.BufferedImage;
 
 public class SwingBitmap implements Bitmap {

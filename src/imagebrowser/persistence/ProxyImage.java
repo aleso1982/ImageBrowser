@@ -1,4 +1,8 @@
-package imagebrowser;
+package imagebrowser.persistence;
+
+import imagebrowser.persistence.ImageLoader;
+import imagebrowser.model.Image;
+import imagebrowser.model.Bitmap;
 
 public class ProxyImage extends Image {
     
